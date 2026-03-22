@@ -1,0 +1,5 @@
+[
+  {"name":"MacBook Air M2","price":1200,"cpu_score":9200,"ram_gb":8,"storage_gb":256,"battery_hours":15,"weight_kg":1.24},
+  {"name":"Dell XPS 13","price":1400,"cpu_score":9800,"ram_gb":16,"storage_gb":512,"battery_hours":12,"weight_kg":1.2},
+  {"name":"Lenovo X1 Carbon","price":1600,"cpu_score":10500,"ram_gb":16,"storage_gb":512,"battery_hours":14,"weight_kg":1.1}
+]
