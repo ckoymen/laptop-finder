@@ -6,6 +6,7 @@
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 "use client";\
+\
 import \{ useState \} from "react";\
 \
 export default function Home() \{\
@@ -25,9 +26,9 @@ export default function Home() \{\
       <h1>AI Laptop Finder</h1>\
 \
       <input\
-        placeholder="travel laptop"\
         value=\{query\}\
         onChange=\{(e) => setQuery(e.target.value)\}\
+        placeholder="travel laptop"\
       />\
 \
       <button onClick=\{search\}>Bul</button>\
@@ -35,7 +36,7 @@ export default function Home() \{\
       \{results.map((item, i) => (\
         <div key=\{i\}>\
           <h3>\{item.name\}</h3>\
-          <p>Score: \{item.score\}</p>\
+          <p>\{item.score\}</p>\
         </div>\
       ))\}\
     </div>\
