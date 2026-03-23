@@ -8,9 +8,7 @@ export default function HomePage() {
 
   const handleSearch = async () => {
     try {
-      const res = await fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_URL}/recommend?q=${query}`
-      );
+    const res = await fetch("https://laptop-finder-2.onrender.com/recommend?q=" + query);
       const data = await res.json();
       setResults(data);
     } catch (err) {
